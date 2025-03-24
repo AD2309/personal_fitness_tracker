@@ -53,10 +53,6 @@ df = user_input_features()
 st.write("<h3 class='section-header'>Your Data:</h3>", unsafe_allow_html=True)
 st.write(df)
 
-# Show Progress Bar while Loading Data
-# st.write("---")
-# st.header("Processing Data...")
-
 # Display the progress bar
 latest_iteration = st.empty()
 bar = st.progress(0)
